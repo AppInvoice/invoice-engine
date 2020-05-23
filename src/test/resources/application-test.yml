@@ -13,3 +13,6 @@ spring:
     user: sa
     password:
     encoding: UTF-8
+  h2:
+    console:
+      enabled: true
