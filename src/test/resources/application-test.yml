@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    url: jdbc:h2:mem:invoice-db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    type: com.zaxxer.hikari.HikariDataSource
+  flyway:
+    url: jdbc:h2:mem:invoice-db
+    locations: classpath:db/test/migrations,classpath:db/migrations
+    user: sa
+    password:
+    encoding: UTF-8
