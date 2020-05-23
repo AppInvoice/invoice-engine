@@ -38,23 +38,26 @@ public class Account {
         return holder;
     }
 
-    public void setHolder(User holder) {
+    public Account setHolder(User holder) {
         this.holder = holder;
+        return this;
     }
 
     public Currency getCurrency() {
         return currency;
     }
 
-    public void setCurrency(Currency currency) {
+    public Account setCurrency(Currency currency) {
         this.currency = currency;
+        return this;
     }
 
     public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(BigDecimal balance) {
+    public Account setBalance(BigDecimal balance) {
         this.balance = balance;
+        return this;
     }
 }

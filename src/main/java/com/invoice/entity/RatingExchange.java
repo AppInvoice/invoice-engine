@@ -42,7 +42,8 @@ public class RatingExchange {
         return percentChange;
     }
 
-    public void setPercentChange(BigDecimal percentChange) {
+    public RatingExchange setPercentChange(BigDecimal percentChange) {
         this.percentChange = percentChange;
+        return this;
     }
 }

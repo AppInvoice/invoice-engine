@@ -41,16 +41,18 @@ public class Currency {
         return code;
     }
 
-    public void setCode(String code) {
+    public Currency setCode(String code) {
         this.code = code;
+        return this;
     }
 
     public RatingExchange getRatingExchange() {
         return ratingExchange;
     }
 
-    public void setRatingExchange(RatingExchange ratingExchange) {
+    public Currency setRatingExchange(RatingExchange ratingExchange) {
         this.ratingExchange = ratingExchange;
+        return this;
     }
 
 
