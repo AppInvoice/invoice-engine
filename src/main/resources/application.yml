@@ -18,3 +18,4 @@ spring:
     user: invoice
     password: invoice!
     encoding: UTF-8
+    cleanOnValidationError: true
